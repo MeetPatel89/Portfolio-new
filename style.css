@@ -107,6 +107,10 @@ footer {
     margin-left: 10px;
 }
 
+.project-links a {
+    display: block;
+}
+
 
 @media all and (min-width: 600px) {
 
@@ -143,7 +147,7 @@ footer {
 
    .spacearound .item {
        width: initial;
-       
+
    }
 
    
@@ -152,9 +156,7 @@ footer {
        width: 75%;
    }
 
-    .project-links a {
-        display: block;
-    }
+
 
 
     .projects {
