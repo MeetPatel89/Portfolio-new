@@ -93,9 +93,12 @@ footer {
     border: 1px solid lightblue;
 }
 
+
 .spacearound .item {
     margin-top: 10px;
     border-top: 1px solid lightblue;
+    width: 75%;
+    align-self: center;
 }
 
 .flexcol {
