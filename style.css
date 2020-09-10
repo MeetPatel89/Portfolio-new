@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 40px;
 }
 
 header {
@@ -37,7 +38,7 @@ header nav ul li a {
 h2 {
     text-align: center;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
 }
 
@@ -80,6 +81,13 @@ footer p {
     background-color: lightblue;
 }
 
+#projects {
+    border: 1px solid lightblue;
+}
+
+.spacearound .item {
+    margin-top: 10px;
+}
 
 
 
@@ -144,5 +152,9 @@ footer p {
 
 h2 {
     padding-top: 15px;
+}
+
+.margin-left {
+    margin-left: 15px;
 }
 }
