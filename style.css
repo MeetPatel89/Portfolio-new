@@ -141,6 +141,13 @@ footer {
        justify-content: space-around;
    }
 
+   .spacearound .item {
+       width: initial;
+       
+   }
+
+   
+
    .group form {
        width: 75%;
    }
