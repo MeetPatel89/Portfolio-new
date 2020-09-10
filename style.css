@@ -36,6 +36,9 @@ header nav ul li a {
 
 h2 {
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .group {
@@ -50,6 +53,7 @@ h2 {
 form input,
 form textarea {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 #aboutme {
@@ -67,6 +71,16 @@ form textarea {
     flex-direction: column;
     align-items: center;
 }
+
+footer p {
+    text-align: center;
+}
+
+#contact {
+    background-color: lightblue;
+}
+
+
 
 
 @media all and (min-width: 600px) {
@@ -117,4 +131,18 @@ form textarea {
     #aboutme {
         margin: 0 0 10px 10px;
     }
+
+    form input,
+    form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+h2 {
+    padding-top: 15px;
+}
 }
