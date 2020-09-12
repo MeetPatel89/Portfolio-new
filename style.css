@@ -1,13 +1,27 @@
+
 body {
     margin: 0;
+}
+
+
+main {
+    width: 90%;
+    margin: auto;
 }
 
 header {
     background-color: #252323;
     margin-bottom: 40px;
+    width: 100%;
 }
 
-
+nav {
+    padding-right: 10px;
+}
+img {
+    width: 100%;
+    margin: auto;
+}
 
 header h1 {
     color: #F5F1ED;
@@ -50,11 +64,17 @@ h2 {
     padding-bottom: 5px;
 }
 
+form {
+    width: 95%;
+    margin: auto;
+}
 
 form input,
 form textarea {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     margin-bottom: 10px;
+    
 }
 
 #aboutme {
@@ -63,8 +83,14 @@ form textarea {
 }
 
 .project-links a,
-.social-links a {
+.social-links a,
+.email a {
     text-decoration: none;
+}
+
+.email a {
+    font-size: 28px;
+    color: #393E41;
 }
 
 .social {
@@ -112,16 +138,21 @@ footer {
 }
 
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 720px) {
 
     body {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     header {
         display: flex;
         justify-content: space-between;
         padding: 0 30px;
+        width: initial;
+    }
+
+    .email a {
+        font-size: 36px;
     }
 
     header h1 {
@@ -131,8 +162,8 @@ footer {
 
     header nav ul li a:hover {
         color: #bdbdbd;
-        transform: scale(1.2);      /* transform property not working */
-    }
+        transform: scale(1.2);      /* transform property not working */ 
+    }  
 
    .group {
        flex-direction: row;
@@ -157,7 +188,9 @@ footer {
    }
 
 
-
+   img {
+       width: initial;
+   }
 
     .projects {
         width: 800px;
@@ -194,3 +227,5 @@ form label {
     margin-bottom: 5px;
 }
 }
+
+
