@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 
@@ -52,7 +53,7 @@ header nav ul li a {
 h2 {
     text-align: center;
     font-family: 'Amatic SC', cursive;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     color: #808080;
 }
@@ -141,7 +142,7 @@ footer {
 #intro {
     font-family: 'Indie Flower', cursive;
     
-    font-size: 40px;
+    font-size: 20px;
 }
 
 @media all and (max-width: 400px) {
@@ -158,11 +159,22 @@ footer {
         font-size: 25px;
     }
 
+
+#intro {
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 40px;
+}
+
     header {
         display: flex;
         justify-content: space-between;
         padding: 0 30px;
         width: initial;
+    }
+
+    h2 {
+        font-size: 80px;
     }
 
     .email a {
