@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -137,8 +138,10 @@ footer {
     display: block;
 }
 
-a {
-
+#intro {
+    font-family: 'Indie Flower', cursive;
+    
+    font-size: 40px;
 }
 
 @media all and (max-width: 400px) {
@@ -152,7 +155,7 @@ a {
 @media all and (min-width: 600px) {
 
     body {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     header {
